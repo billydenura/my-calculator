@@ -1,0 +1,32 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+}
+.baris, .calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    flex-direction: column;
+}
+.baris{
+    flex-direction: row;
+}
+#display{
+    height: 100px;
+    width: 403px;
+    background-color: bisque;
+    border: 1px solid white;
+    font-size: 40px;
+}
